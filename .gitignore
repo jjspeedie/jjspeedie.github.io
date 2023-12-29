@@ -6,8 +6,14 @@ _site
 Gemfile.lock
 .idea
 .DS_Store
+assets/images/alma/aos-pan2-youtube.jpg
+assets/images/movies/SBD22/delete/
+assets/images/movies/SPCBM22/delete/
 
-assets/images/
+assets/images/talks/
+assets/images/alma/
+assets/images/movies/
+assets/images/obs-syn/
 _posts/
 _products/
 blog/
