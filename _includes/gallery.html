@@ -1,0 +1,160 @@
+{% if page.gallery %}
+    {% assign galleries=site.data.[page.gallery] %}
+    <div class="content">
+        <p>{{ galleries.intro | markdownify }}</p>
+    </div>
+
+        {% for item in galleries.items %}
+            <section class="showcase">
+                <!-- <figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
+                    <img src="{{ item.image | relative_url }}" />
+                </figure> -->
+                <div class="showcase-content">
+
+                    <div class="columns is-centered">
+                        <div class="column is-5">
+                            {% include image-modal.html ratio="is-5by3" link=item.image alt="Example image" large_link=item.image_large %}
+                        </div>
+                        <div class="column is-7 has-text-left">
+                            <p class="title is-size-5">{{ item.telescope }} program {{ item.program_ID }} (PI: {{ item.PI }})</p>
+                            <p class="is-size-5">{{ item.pub_title }}</p>
+                            <p class="subtitle is-size-6"><a href="{{ item.ads }}" target="_blank">{{ item.author1 }} {{ item.coauthors }}, ({{ item.year }})</a>. <i>{{ item.journal }}</i>, {{ item.volume }}.</p>
+                            <p class="is-size-6"><b>Target:</b> {{ item.target }}</p>
+                            <p class="is-size-6"><b>Configuration(s):</b> {{ item.configuration }}</p>
+                            <p class="is-size-6"><b>Band(s):</b> {{ item.band }}</p>
+                            <p class="is-size-6"><b>Frequency support:</b> {{ item.molecules  markdownify}}</p>
+                            <p class="is-size-6"><b>Available data products:</b> {{ item.product_types  markdownify}}</p>
+                            <p class="is-size-6"><b>Tools used:</b> {{ item.tools  markdownify}}</p>
+                            <p class="title is-size-5"> </p>
+                            <!-- <p class="subtitle is-size-6">{{ item.description }}</p> -->
+                            {% if item.download_data%}
+                              <div class="buttons is-left">
+                              <a href="{{ item.download_data}}" target="_blank" class="button is-info is-light is-outlined ">download data products</a>
+                                {% if item.reduction_guide %}
+                                <a href="{{ item.reduction_guide }}" target="_blank" class="button is-info is-light is-outlined ">reduction guide</a>
+                                {% endif %}
+                              </div>
+                              <!-- <div class="buttons is-left">
+                                {% if item.ALMA_archive %}
+                                <a href="{{ item.ALMA_archive }}" target="_blank" class="button is-grey">ALMA archive</a>
+                                {% endif %}
+                                {% if item.figshare %}
+                                <a href="{{ item.figshare }}" target="_blank" class="button is-grey">figshare</a>
+                                {% endif %}
+                              </div> -->
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {% endfor %}
+
+
+        <hr class="major" />
+
+        <div class="content">
+            <p>{{ galleries.syn_intro | markdownify }}</p>
+        </div>
+
+        {% for item in galleries.syn_items %}
+            <section class="showcase">
+                <!-- <figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
+                    <img src="{{ item.image | relative_url }}" />
+                </figure> -->
+                <div class="showcase-content">
+
+                    <div class="columns is-centered">
+                        <div class="column is-5">
+                            {% include image-modal.html ratio="is-5by3" link=item.image alt="Example image" large_link=item.image_large %}
+                        </div>
+                        <div class="column is-7 has-text-left">
+                            <!-- <p class="subtitle is-size-5">{{ item.pub_title }}</p> -->
+                            <p class="is-size-5">{{ item.pub_title }}</p>
+                            <p class="subtitle is-size-6"><a href="{{ item.ads }}" target="_blank">{{ item.author1 }} {{ item.coauthors }} ({{ item.year }})</a>, <i>{{ item.journal }}</i>, {{ item.volume }}.</p>
+                            <p class="is-size-6">{{ item.description }}</p>
+                            <p class="is-size-6"><b>Telescope:</b> {{ item.telescope }}</p>
+                            <p class="is-size-6"><b>Target:</b> {{ item.target }}</p>
+                            <p class="is-size-6"><b>Configuration(s):</b> {{ item.configuration }}</p>
+                            <p class="is-size-6"><b>Band(s):</b> {{ item.band }}</p>
+                            <p class="is-size-6"><b>Frequency support:</b> {{ item.molecules  markdownify}}</p>
+                            <p class="is-size-6"><b>Available data products:</b> {{ item.product_types  markdownify}}</p>
+                            <p class="is-size-6"><b>Made using:</b> {{ item.tools  markdownify}}</p>
+                            <p class="title is-size-5"> </p>
+                            {% if item.download_data%}
+                              <div class="buttons is-left">
+                              <a href="{{ item.download_data}}" target="_blank" class="button is-info is-light is-outlined ">download data products</a>
+                              </div>
+                              <!-- <div class="buttons is-left">
+                                {% if item.ALMA_archive %}
+                                <a href="{{ item.ALMA_archive }}" target="_blank" class="button is-grey">ALMA archive</a>
+                                {% endif %}
+                                {% if item.figshare %}
+                                <a href="{{ item.figshare }}" target="_blank" class="button is-grey">figshare</a>
+                                {% endif %}
+                              </div> -->
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        {% endfor %}
+
+
+        <hr class="major" />
+
+        <div class="content">
+            <p>{{ galleries.code_intro | markdownify }}</p>
+        </div>
+
+        <div class="columns is-multiline">
+            <!-- <div class="column is-12">
+                <p class="title is-3 has-text-centered">{{ gallery.title }}</p>
+            </div> -->
+            {% for item in galleries.code_items %}
+            <div class="column is-4-desktop is-6-tablet">
+                <div class="card">
+                    <div class="card-image">
+                        {% include image-modal.html ratio=item.image_ratio link=item.image alt="Example image" large_link=item.image_large %}
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                          <h5>{{ item.title | markdownify }}</h5>
+                          <p>{{ item.description | markdownify }}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- {% for item in galleries.code_items %}
+            <section class="showcase">
+                <figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
+                    <img src="{{ item.image | relative_url }}" />
+                </figure>
+                <div class="showcase-content">
+                    <div class="columns is-centered">
+                        <div class="column is-12-desktop is-12-tablet">
+                            <p class="title is-size-4">{{ item.title }}</p>
+                            <p></p> -->
+                            <!-- <p class="subtitle is-size-5">{{ item.subtitle }}</p> -->
+                            <!-- <p class="subtitle is-size-5"><b>{{ item.author1 }}</b> {{ item.coauthors }}, ({{ item.year }}). <i>{{ item.journal }}</i>, {{ item.volume }}.</p>
+
+                            {% if item.ojs %}
+                            <div class="buttons is-centered">
+                                <a href="{{ item.ojs }}" target="_blank" class="button is-grey">OJS/PKP</a>
+                            </div>
+                            {% endif %} -->
+
+                            <!-- <a href="{{ item.link }}" class="button is-primary is-centered">
+                                {{ item.link_text }}
+                            </a> -->
+                        <!-- </div>
+                    </div>
+
+                </div>
+            </section>
+        {% endfor %} -->
+
+    {% endif %}

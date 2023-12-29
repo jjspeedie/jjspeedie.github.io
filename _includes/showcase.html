@@ -1,0 +1,113 @@
+{% if page.showcase %}
+    {% assign showcase = site.data.[page.showcase] %}
+
+    <div class="content">
+        <p>{{ showcase.intro | markdownify }}</p>
+    </div>
+
+    {% for item in showcase.items %}
+        <section class="showcase">
+            <figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
+                <img src="{{ item.image | relative_url }}" />
+            </figure>
+            <div class="showcase-content">
+                <div class="columns is-centered">
+                    <div class="column is-12-desktop is-12-tablet">
+                        <p class="title is-size-4">{{ item.title }}</p>
+                        <p></p>
+                        <!-- <p class="subtitle is-size-5">{{ item.subtitle }}</p> -->
+                        <p class="subtitle is-size-5"><b>{{ item.author1 }}</b> {{ item.coauthors }}, ({{ item.year }}). <i>{{ item.journal }}</i>, {{ item.volume }}.</p>
+
+                        {% if item.github %}
+                        <div class="buttons is-centered">
+                            <a href="https://github.com/{{ item.github }}/stargazers" class="button is-white is-small">
+                                <img alt="GitHub stars" src="https://img.shields.io/github/stars/{{ item.github }}?style=social">
+                            </a>
+                            <a href="https://github.com/{{ item.github }}/network/members" class="button is-white is-small">
+                                <img alt="GitHub forks" src="https://img.shields.io/github/forks/{{ item.github }}?style=social">
+                            </a>
+                            <a href="https://github.com/{{ item.github }}/watchers" class="button is-white is-small">
+                                <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/{{ item.github }}?style=social">
+                            </a>
+                        </div>
+                        {% endif %}
+
+                        <div class="content">
+                            <p>{{ item.description | markdownify }}</p>
+                        </div>
+
+                        {% if item.features %}
+                        <ul class="block-list {{ item.features_styles }}">
+                            {% for feature in item.features %}
+                            <li>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                        {% endif %}
+
+
+                        {% if item.tags %}
+                        {% assign tags = item.tags | split: "," %}
+                        <div class="tags is-centered">
+                            {% for tag in tags %}
+                                {% include tag.html tag=tag style="is-dark" %}
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+
+                        {% if item.ads %}
+                        <div class="buttons is-centered">
+                            <a href="{{ item.ads }}" target="_blank" class="button is-grey">ADS</a>
+                            <a href="{{ item.arxiv }}" target="_blank" class="button is-grey">arXiv</a>
+                            {% if item.figshare %}
+                            <a href="{{ item.figshare }}" target="_blank" class="button is-grey">figshare</a>
+                            {% endif %}
+                        </div>
+                        {% endif %}
+
+                        <!-- <a href="{{ item.link }}" class="button is-primary is-centered">
+                            {{ item.link_text }}
+                        </a> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    {% endfor %}
+
+    <hr class="major" />
+
+    <div class="content">
+        <p>{{ showcase.ug_intro | markdownify }}</p>
+    </div>
+
+    {% for item in showcase.ug_items %}
+        <section class="showcase">
+            <figure class="image {% if item.image_ratio %} {{ item.image_ratio }} {% else %} is-16by9 {% endif %}">
+                <img src="{{ item.image | relative_url }}" />
+            </figure>
+            <div class="showcase-content">
+                <div class="columns is-centered">
+                    <div class="column is-12-desktop is-12-tablet">
+                        <p class="title is-size-4">{{ item.title }}</p>
+                        <p></p>
+                        <!-- <p class="subtitle is-size-5">{{ item.subtitle }}</p> -->
+                        <p class="subtitle is-size-5"><b>{{ item.author1 }}</b> {{ item.coauthors }}, ({{ item.year }}). <i>{{ item.journal }}</i>, {{ item.volume }}.</p>
+
+
+                        {% if item.ojs %}
+                        <div class="buttons is-centered">
+                            <a href="{{ item.ojs }}" target="_blank" class="button is-grey">OJS/PKP</a>
+                        </div>
+                        {% endif %}
+
+                        <!-- <a href="{{ item.link }}" class="button is-primary is-centered">
+                            {{ item.link_text }}
+                        </a> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    {% endfor %}
+
+{% endif %}
