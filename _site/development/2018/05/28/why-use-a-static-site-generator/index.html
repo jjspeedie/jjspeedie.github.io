@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ dir="auto"
+ lang="en"
+ class="has-navbar-fixed-top">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#999999>
+    <link rel="stylesheet" href="/bulma-clean-theme/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/bulma-clean-theme/images/favicon.png" 
+    />
+    <script defer src="https://unpkg.com/alpinejs@3.9.0/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Why use a static site generator | Jess Speedie</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Why use a static site generator" />
+<meta name="author" content="C.S. Rhymes" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="There are many ways to make a website, but what about static site generators" />
+<meta property="og:description" content="There are many ways to make a website, but what about static site generators" />
+<link rel="canonical" href="https://www.csrhymes.com/development/2018/05/28/why-use-a-static-site-generator.html" />
+<meta property="og:url" content="https://www.csrhymes.com/development/2018/05/28/why-use-a-static-site-generator.html" />
+<meta property="og:site_name" content="Jess Speedie" />
+<meta property="og:image" content="https://www.csrhymes.com//img/static-site-generator.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-28T06:50:07-04:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.csrhymes.com//img/static-site-generator.jpg" />
+<meta property="twitter:title" content="Why use a static site generator" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"C.S. Rhymes"},"dateModified":"2018-05-28T06:50:07-04:00","datePublished":"2018-05-28T06:50:07-04:00","description":"There are many ways to make a website, but what about static site generators","headline":"Why use a static site generator","image":"https://www.csrhymes.com//img/static-site-generator.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://www.csrhymes.com/development/2018/05/28/why-use-a-static-site-generator.html"},"url":"https://www.csrhymes.com/development/2018/05/28/why-use-a-static-site-generator.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary  is-fixed-top " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/bulma-clean-theme/" class="navbar-item">
+                <b>Jess Speedie</b>
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/bulma-clean-theme/" class="navbar-item ">home</a>
+                
+                
+                    
+                    <a href="/bulma-clean-theme/research/" class="navbar-item ">research</a>
+                    
+                
+                    
+                    <a href="/bulma-clean-theme/data-code/" class="navbar-item ">data & code</a>
+                    
+                
+                    
+                    <a href="/bulma-clean-theme/visuals/" class="navbar-item ">visuals</a>
+                    
+                
+                    
+                    <a href="/bulma-clean-theme/cv/" class="navbar-item ">CV</a>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary" >
+    <div class="hero-body ">
+        <div class="container">
+            <h1 class="title is-2">Why use a static site generator</h1>
+            <p class="subtitle is-3"></p>
+            
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+
+                    
+                    
+
+                    <div class="content">
+
+    <p>Published: May 28, 2018 by C.S. Rhymes</p>
+
+    
+
+    <p>There are many ways to make a website and many different CMS platforms you can use, such as WordPress and Joomla, as well as site builder tools that offer you drag and drop interfaces, but what about static site generators?</p>
+
+<p>A static site is pretty much what it sounds like, a set of pre generated html pages. Other platforms take what you enter into the CMS and process the information stored in the database, alongside a template or many template partials and dynamically construct the page before serving the html to you in your browser.</p>
+
+<h2 id="speed">Speed</h2>
+<p>The initial advantage of a static site over a dynamic, database driven site is the page speed as means a lot less processing has to be done before the page is delivered. Some CMS’s provide caching which means that the first visitor to the page gets a dynamic version and then stores a cache of the page. This means subsequent visitor to the page gets the page quicker than the first. If you have a regularly cleared cache, or low numbers of visitors, subsequent visitors may not benefit from the caching and would all experience the increased load times.</p>
+
+<h2 id="version-control">Version Control</h2>
+<p>The next advantage of a static site is that it is that it can be version controlled. Usually a CMS relies on a database, which means that if you delete a page or some page content you either have to have revisions enabled in your CMS so you can roll back to a previous version or you need regular backups of your database so you can roll that back to a previous version. A static site with version control means you can easily revert to a previous version of your site and content without the need for database manipulation.</p>
+
+<h2 id="data-files">Data Files</h2>
+<p>Static sites, such as Jekyll, also offer a way of storing data in a more human readable format, such as yaml or JSON. This means you can store data that is used in multiple places across your site in one file and reference it in many places. For example, you may have a data file containing products, which you want to list in a category page and a product details page and maybe feature it on the homepage as well. These files can also be version controlled, meaning any changes or updates to your datafiles can be undone easily. The files can also be easily edited in a text editor so if you need to make multiple product amends, such as updating a misspelt brand name you can use something as simple as find and replace to update the spelling in all places at once without having to navigate to multiple different pages in a CMS.</p>
+
+<h2 id="design-freedom">Design Freedom</h2>
+<p>The biggest benefit I find to a static site is there is more freedom for a frontend developer and how they design and build your site. Some CMS’s work in a particular way and you are limited by the way they work. Page builders are available for many CMS’s but it often results in a lot of effort to get a particular piece of content in a particular place on the page.</p>
+
+<p>A static site generator gives you more freedom to write your own html and text onto the page in the format you want it, rather than having to customise or overwrite the html and css classes output by the page builder tool.</p>
+
+<h2 id="data-protection">Data Protection</h2>
+<p>A lot of people like the idea of installing a plugin into a CMS to handle things such as contact forms, so people can contact you about something, but in all honesty, it’s easier just to have an email address on the page that users can click on and email you directly. The reason I say this is that you have to try and prevent spam emails by using some kind of captcha on the form, as well as maintaining an email service that will handle the form submission and either store the form data somewhere on your site or send it to you as an email. This is pretty basic stuff, but is further complicated by data privacy laws that dictate how you store customers data and how you protect it. I know a lot of small business users would prefer to not have the hassle of managing stored user data on their site.</p>
+
+<h2 id="security">Security</h2>
+<p>One last thing to consider is website security. There is always a chance that using a popular CMS will leave your site vulnerable as there are always security issues being identified. You need to constantly keep your site up to date and lock down the CMS login as secure as possible. With a static site, there is no login screen. The original content lives somewhere else and the compiled, generated html is all that needs to be uploaded to your website, minimising the risk. Any public facing website has some risk but anything you can do to minimise it is better for your website in the long run.</p>
+
+<h2 id="what-will-you-use-on-your-next-project">What will you use on your next project?</h2>
+<p>A static site may not be the first thing you consider when building your new website, but it’s definitely worth exploring the pros and cons before you start the next project. After all, a faster, more secure site is better for you and your visitors.</p>
+
+</div>
+
+<div class="tags">
+    
+</div>
+
+
+<p><strong>Share</strong></p>
+<div class="buttons ">
+    <a class="button is-medium is-facebook"
+       onclick="window.open('https://www.facebook.com/share.php?u=http://localhost:4000/bulma-clean-theme/development/2018/05/28/why-use-a-static-site-generator/');">
+        <span class="icon"><i class="fab fa-facebook fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-twitter"
+       onclick="window.open('https://twitter.com/intent/tweet?text=http://localhost:4000/bulma-clean-theme/development/2018/05/28/why-use-a-static-site-generator/');">
+        <span class="icon"><i class="fab fa-twitter fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-linkedin"
+       onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/bulma-clean-theme/development/2018/05/28/why-use-a-static-site-generator/&title=Why+use+a+static+site+generator&summary=&source=');">
+        <span class="icon"><i class="fab fa-linkedin fa-lg"></i></span>
+    </a>
+    <a class="button is-medium is-reddit"
+       onclick="window.open('https://reddit.com/submit?url=http://localhost:4000/bulma-clean-theme/development/2018/05/28/why-use-a-static-site-generator/');">
+        <span class="icon"><i class="fab fa-reddit fa-lg"></i></span>
+    </a>
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+        
+
+        <div class="content has-text-centered">
+          <a href="JessicaSpeedie-CV.pdf" target="_blank" title="Jess Speedie: CV" class="button is-link is-outlined">Full CV</a>
+          <p> <center> <b>Email:</b> jspeedie@uvic.ca</center></p>
+          <span class="icon is-large">
+              <a href="https://www.youtube.com/@jspeedie/featured" target="_blank"><i class="fab fa-3x fa-youtube"></i></a>
+          </span>
+          <span class="icon is-large">
+              <a href="https://twitter.com/speediejess" target="_blank"><i class="fab fa-3x fa-twitter"></i></a>
+          </span>
+          <span class="icon is-large">
+              <a href="https://www.linkedin.com/in/jjspeedie/" target="_blank"><i class="fab fa-3x fa-linkedin"></i></a>
+          </span>
+          <span class="icon is-large">
+              <a href="https://github.com/jjspeedie" target="_blank"><i class="fab fa-3x fa-github"></i></a>
+          </span>
+        </div>
+
+        <div class="content is-small has-text-centered">
+            <p class="">&copy; Jessica Speedie 2023.</p>
+            <p class="">Banner image: The wakes of a young planet (simulated with <a href="http://fargo.in2p3.fr/" target="_blank">FARGO3D</a>).</p>
+            <p class="">Adapted from Bulma Clean Theme by <a href="https://www.csrhymes.com" target="_blank">C.S. Rhymes</a></p>
+        </div>
+    </div>
+</footer>
+
+<!-- <section class="hero is-large has-bg-img">
+    <img is-bg-img src="images/IMG_5644copy.jpg" alt=""> </img>
+</section> -->
+
+<!-- <section class="hero is-info">
+  <img src="images/IMG_5644copy.jpg" alt="" />
+</section> -->
+
+    
+    <script src="/bulma-clean-theme/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>
