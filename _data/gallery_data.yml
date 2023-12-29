@@ -1,0 +1,126 @@
+intro: |-
+  # Observations
+  (Coming soon) Data products from observing projects.
+
+# items:
+#   - image: /assets/images/HD97048.png #  (sorted by publication, not by program).
+#     image_large: /assets/images/HD97048.png
+#     telescope: ALMA
+#     target: HD 97048
+#     program_ID: 2022.1.01266.S
+#     PI: Speedie, J.
+#     pub_title: Putting kinematic signatures to the test
+#     configuration: C-5 + C-8
+#     band: 3
+#     molecules: continuum only
+#     product_types: Measurement sets, images, moment maps
+#     tools: CASA, VisAlign, SNOW, GPUVMEM
+#     description: Description of data products available to download
+#     author1: Speedie
+#     coauthors: et al.
+#     journal: Journal
+#     volume: volume
+#     year: in prep.
+#     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
+#     download_data: https://doi.org/10.6084/m9.figshare.21330426
+#     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
+#   - image: /assets/images/channelpans.png
+#     image_large: /assets/images/channelpans.png
+#     telescope: ALMA
+#     target: AB Aurigae
+#     program_ID: 2021.1.00690.S
+#     PI: Dong, R.
+#     pub_title: Kinematic evidence of gravitational instability in the planet-forming disk around AB Aurigae
+#     configuration: C-3 + C-6
+#     band: 6
+#     molecules: <sup>12</sup>CO, <sup>13</sup>CO, C<sup>18</sup>O, SO, continuum
+#     product_types: Measurement sets, image cubes, moment maps
+#     tools: CASA, bettermoments, expanding_kernel
+#     description: Description of data products available to download
+#     author1: Speedie
+#     coauthors: et al.
+#     journal: journal
+#     volume: volume
+#     year: submitted.
+#     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
+#     download_data: https://doi.org/10.6084/m9.figshare.21330426
+#     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
+
+
+
+syn_intro: |-
+  # Synthetic Observations
+  Synthetic data products generated from simulations.
+
+syn_items:
+  # - image: /assets/images/hall_models.png
+  #   image_large: /assets/images/hall_models.png
+  #   telescope: ALMA
+  #   target: AB Aurigae analogue
+  #   pub_title: Kinematic evidence of gravitational instability in the planet-forming disk around AB Aurigae
+  #   configuration: C-3 + C-6
+  #   band: 6
+  #   molecules: <sup>13</sup>CO
+  #   product_types: Image cubes, moment maps, MCFOST line cubes, PHANTOM dump files, param files, scripts
+  #   tools: PHANTOM, MCFOST, syndisk, bettermoments, expanding_kernel
+  #   author1: Speedie
+  #   coauthors: et al.
+  #   journal: Journal
+  #   volume: volume
+  #   year: year
+  #   ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
+  #   download_data: https://doi.org/10.6084/m9.figshare.21330426
+  - image: /assets/images/obs-syn/SBD2022.jpg
+    image_large: /assets/images/obs-syn/SBD2022.jpg
+    telescope: ALMA
+    target: DSHARP-like disk with an embedded planet
+    pub_title: Observing planet-driven dust spirals with ALMA
+    configuration: C-4 + C-7, C-5 + C-8 and C-6 + C-9
+    band: 7
+    molecules: Continuum only
+    product_types: Continuum images (N=576), input RT dust intensity maps (N=24)
+    tools: <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a> (see fargo3d_to_alma)
+    author1: Speedie
+    coauthors: et al.
+    journal: ApJ
+    volume: 930, 40 (22pp)
+    year: 2022
+    ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...930...40S/abstract
+    download_data: https://doi.org/10.6084/m9.figshare.19148912
+
+
+code_intro: |-
+  # Code
+  (Coming soon) Models, tools, etc.
+
+# fargo3d_to_casa
+# keplerian_mask
+# 	- spectral smoothing
+# eddy
+# 	- wedge
+# simobs
+# 	- primary beam correction
+# expanding_kernel
+# 	- the whole thing
+
+# code_items:
+#   # - title: giggle
+#   #   image: /assets/images/lafreniere.png
+#   #   image_ratio: is-4by1
+#   #   description: Cristiano Longarini
+#   - title: expanding_kernel
+#     image: /assets/images/lafreniere.png
+#     image_ratio: is-4by1
+#     description: expanding kernel
+#   - title: fargo3d_to_alma
+#     image: /assets/images/sec2_overview3.jpg
+#     image_ratio: is-1770by687
+#     description: Used in Speedie+2022
+  # - title: eddy wedge
+  #   image: /assets/images/lafreniere.png
+  #   image_ratio: is-4by1
+  #   description: eddy wedge
+  # - title: HL Tau growth and migration
+  #   image: /assets/images/lafreniere.png
+  #   image_ratio: is-4by1
+  #   description: HL Tau growth and migration

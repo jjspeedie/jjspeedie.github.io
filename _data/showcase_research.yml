@@ -1,0 +1,77 @@
+intro: |-
+  # First-author publications
+  Up-to-date ADS library can be found <a href="https://ui.adsabs.harvard.edu/public-libraries/OOULjEiIR02eZGFIpVmyLQ" target="_blank">here</a>.
+
+items:
+  - title: Testing velocity kinks as a planet-detection method. Do velocity kinks in surface gas emission trace planetary spiral wakes in the midplane continuum?
+    image: /assets/images/doar25.png
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: and Dong, R.
+    journal: ApJ Letters
+    volume: 940(2), L43
+    year: 2022
+    ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
+    arxiv: https://arxiv.org/abs/2211.05757
+    figshare: https://doi.org/10.6084/m9.figshare.21330426
+
+  - title: Observing planet-driven dust spirals with ALMA
+    image: /assets/images/spirals.png
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: Booth, R.A., and Dong, R.
+    journal: ApJ
+    volume: 930, 40 (22pp)
+    year: 2022
+    ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...930...40S/abstract
+    arxiv: https://arxiv.org/abs/2203.00692
+    figshare: https://doi.org/10.6084/m9.figshare.19148912
+
+  - title: Turbulent viscosity and the bifurcation of planet formation histories
+    image: /assets/images/v3-torqdisk.png
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: Pudritz, R.E., Cridland A.J., Booth R., and Meru F.
+    journal: MNRAS
+    volume: 510(4), 6059-6084
+    year: 2022
+    ads: https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.6059S/abstract
+    arxiv: https://arxiv.org/abs/2111.01798
+    figshare:
+
+  - title: The structure and stability of extended, inclined circumplanetary disk or ring systems
+    image: /assets/images/laplacestack-narrow.png
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: and Zanazzi, J.J.
+    journal: MNRAS
+    volume: 497(2), 1870–1883
+    year: 2020
+    ads: https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1870S/abstract
+    arxiv: https://arxiv.org/abs/1912.00034
+    figshare:
+
+ug_intro: |-
+  # Undergraduate publications
+  Published in undergraduate-refereed journals
+
+ug_items:
+  - title: Improved surface gravity and mass constraints for substellar objects from spectral line profile measurements at high resolution in the near-infrared
+    image: /assets/images/lafreniere.png
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: and Lafrenière, D.
+    journal: The iScientist, Vol. IV
+    volume: 4(1), 3-14
+    year: 2019
+    ojs: https://journals.mcmaster.ca/iScientist/article/view/2065
+
+  - title: Star formation and morphology of galaxies in local compact groups
+    image: /assets/images/MLCG1577-narrow.jpg
+    image_ratio: is-4by1
+    author1: Speedie, J.
+    coauthors: and Parker, L.C.
+    journal: The iScientist, Vol. III
+    volume: 3(1), 3-12
+    year: 2018
+    ojs: https://journals.mcmaster.ca/iScientist/article/view/1568
