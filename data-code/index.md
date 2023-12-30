@@ -1,7 +1,7 @@
 ---
 layout: page
-title: #data-code
-subtitle: #Blog sub title
+title: # Jess Speedie
+subtitle: # Data & code
 hero_image: ../assets/images/banner.jpg
 gallery: gallery_data
 show_sidebar: false

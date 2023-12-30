@@ -1,10 +1,11 @@
 ---
 layout: page
-title: #visuals
-subtitle: #Blog sub title
+title: # Jess Speedie
+subtitle: # Visuals
 hero_image: ../assets/images/banner.jpg
 show_sidebar: false
 ---
+
 
 # Movies
 
