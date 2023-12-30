@@ -3,10 +3,9 @@ lang: en
 title: Jess Speedie
 tagline: #Bulma Clean Theme
 email: jspeedie@uvic.ca
-description: >
-  Jess Speedie astronomy personal website
+description: >-
 baseurl: ""
-url: ""
+url: "https://jspeedie.com/"
 permalink: pretty
 favicon: assets/images/favicon.png
 gh_sponsor: #chrisrhymes
