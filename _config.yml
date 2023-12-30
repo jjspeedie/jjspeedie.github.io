@@ -2,11 +2,11 @@
 lang: en
 title: Jess Speedie
 tagline: #Bulma Clean Theme
-email: your-email@domain.com
+email: jspeedie@uvic.ca
 description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+  Jess Speedie astronomy website
+baseurl: ""
+url: "https://jspeedie.com/"
 permalink: pretty
 favicon: images/favicon.png
 gh_sponsor: #chrisrhymes
