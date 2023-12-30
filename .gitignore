@@ -1,14 +1,3 @@
 2023/
-*.gem
-.bundle
-.sass-cache
-Gemfile.lock
-.idea
-.DS_Store
-assets/images/alma/aos-pan2-youtube.jpg
 
-_posts/
-_products/
-blog/
-docs/
-img/
+assets/images/alma/aos-pan2-youtube.jpg
