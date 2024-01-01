@@ -9,7 +9,7 @@ hero_image: assets/images/banner.jpg
 <div class="columns">
   <div class="column is-narrow">
     <div class="box" style="width: 320px;">
-      <p class="title is-5"><img src="assets/images/jess-sep-2022.png" alt="" /></p>
+      <p class="title is-5"><img src="assets/images/jess-sep-2022.png" alt="Jess Speedie" /></p>
     </div>
   </div>
   <div class="column">
