@@ -1,1 +1,1 @@
-Sitemap: https://jspeedie.com//sitemap.xml
+Sitemap: https://jspeedie.com/sitemap.xml
