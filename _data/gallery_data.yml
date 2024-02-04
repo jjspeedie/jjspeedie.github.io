@@ -79,7 +79,7 @@ syn_items:
     band: 7
     molecules: Continuum only
     product_types: Continuum images (N=576), input RT dust intensity maps (N=24)
-    tools: <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a> (see fargo3d_to_alma)
+    tools: <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a> #(see fargo3d_to_alma)
     author1: Speedie
     coauthors: et al.
     journal: ApJ
