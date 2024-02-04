@@ -1,0 +1,14 @@
+
+
+Build and serve:
+cd /Users/jspeedie/Documents/WEBSITE/jjspeedie.github.io
+bundle exec jekyll build
+bundle exec jekyll serve
+
+
+Push to repo and internet:
+cd /Users/jspeedie/Documents/WEBSITE/jjspeedie.github.io
+git add .
+git commit -m "Message"
+git push
+ghp-import -n -p -f _site
