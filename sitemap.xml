@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jspeedie.com/research/</loc>
+<loc>http://localhost:4000/research/</loc>
 </url>
 <url>
-<loc>https://jspeedie.com/data-code/</loc>
+<loc>http://localhost:4000/data-code/</loc>
 </url>
 <url>
-<loc>https://jspeedie.com/visuals/</loc>
+<loc>http://localhost:4000/visuals/</loc>
 </url>
 <url>
-<loc>https://jspeedie.com/CV/</loc>
+<loc>http://localhost:4000/CV/</loc>
 </url>
 <url>
-<loc>https://jspeedie.com/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://jspeedie.com/CV/JessicaSpeedie-CV.pdf</loc>
+<loc>http://localhost:4000/CV/JessicaSpeedie-CV.pdf</loc>
 <lastmod>2024-01-14T12:52:06-08:00</lastmod>
 </url>
 </urlset>
