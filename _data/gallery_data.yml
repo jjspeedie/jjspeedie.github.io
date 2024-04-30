@@ -70,12 +70,29 @@ syn_items:
   #   year: year
   #   ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
   #   download_data: https://doi.org/10.6084/m9.figshare.21330426
+  - image: /assets/images/obs-syn/SRSBC2024.jpg
+    image_large: /assets/images/obs-syn/SBD2022.jpg
+    telescope: ALMA
+    target: DSHARP-like disk with an embedded planet
+    pub_title: Searching for planet-driven dust spirals in ALMA visibilities
+    configuration: C4+C7, C5+C8 and C6
+    band: 7, 6
+    molecules: Continuum only
+    product_types: Continuum visibilities and images (N=132)
+    tools: <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a> #(see fargo3d_to_alma)
+    author1: Stevenson, Ribas, Speedie
+    coauthors: et al.
+    journal: MNRAS
+    volume: in press. (arXiv:2404.18925)
+    year: 2024
+    ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240418925S/abstract
+    download_data: https://doi.org/10.6084/m9.figshare.25464109
   - image: /assets/images/obs-syn/SBD2022.jpg
     image_large: /assets/images/obs-syn/SBD2022.jpg
     telescope: ALMA
     target: DSHARP-like disk with an embedded planet
     pub_title: Observing planet-driven dust spirals with ALMA
-    configuration: C-4 + C-7, C-5 + C-8 and C-6 + C-9
+    configuration: C4+C7, C5+C8 and C6+C9
     band: 7
     molecules: Continuum only
     product_types: Continuum images (N=576), input RT dust intensity maps (N=24)
@@ -91,7 +108,7 @@ syn_items:
 
 code_intro: |-
   # Code
-  (Coming soon) Models, tools, etc.
+  Models, tools, useful functions, etc.
 
 # fargo3d_to_casa
 # keplerian_mask
@@ -102,16 +119,22 @@ code_intro: |-
 # 	- primary beam correction
 # expanding_kernel
 # 	- the whole thing
+# Give examples of where used
 
-# code_items:
+code_items:
+#   # - title: PIMS
+#   #   image: /assets/images/lafreniere.png
+#   #   image_ratio: is-4by1
+#   #   description: Pineda Implementation of the Mendoza Streamline model
 #   # - title: giggle
 #   #   image: /assets/images/lafreniere.png
 #   #   image_ratio: is-4by1
 #   #   description: Cristiano Longarini
-#   - title: expanding_kernel
-#     image: /assets/images/lafreniere.png
-#     image_ratio: is-4by1
-#     description: expanding kernel
+  - title: expanding_kernel
+    image: /assets/images/code/expanding_kernel.png
+    image_ratio: is-4by1
+    description: Enhance image contrast via high-pass filtering with a radially expanding kernel
+    github_link: https://github.com/jjspeedie/expanding_kernel
 #   - title: fargo3d_to_alma
 #     image: /assets/images/sec2_overview3.jpg
 #     image_ratio: is-1770by687

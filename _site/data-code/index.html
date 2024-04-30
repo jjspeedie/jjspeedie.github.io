@@ -25,14 +25,14 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="Jess Speedie" />
 <meta property="og:locale" content="en" />
-<link rel="canonical" href="https://jspeedie.com/data-code/" />
-<meta property="og:url" content="https://jspeedie.com/data-code/" />
+<link rel="canonical" href="http://localhost:4000/data-code/" />
+<meta property="og:url" content="http://localhost:4000/data-code/" />
 <meta property="og:site_name" content="Jess Speedie" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Jess Speedie" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","headline":"Jess Speedie","url":"https://jspeedie.com/data-code/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Jess Speedie","url":"http://localhost:4000/data-code/"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- head scripts --></head>
@@ -128,6 +128,59 @@
         
             <section class="showcase">
                 <!-- <figure class="image  is-16by9 ">
+                    <img src="/assets/images/obs-syn/SRSBC2024.jpg" />
+                </figure> -->
+                <div class="showcase-content">
+
+                    <div class="columns is-centered">
+                        <div class="column is-5">
+                            <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-5by3">
+            <img src="http://localhost:4000/assets/images/obs-syn/SRSBC2024.jpg" alt="Example image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            
+                <img src="http://localhost:4000/assets/images/obs-syn/SBD2022.jpg" alt="Example image">
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                        </div>
+                        <div class="column is-7 has-text-left">
+                            <!-- <p class="subtitle is-size-5">Searching for planet-driven dust spirals in ALMA visibilities</p> -->
+                            <p class="is-size-5">Searching for planet-driven dust spirals in ALMA visibilities</p>
+                            <p class="subtitle is-size-6"><a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240418925S/abstract" target="_blank">Stevenson, Ribas, Speedie et al. (2024)</a>, <i>MNRAS</i>, in press. (arXiv:2404.18925).</p>
+                            <p class="is-size-6"></p>
+                            <p class="is-size-6"><b>Telescope:</b> ALMA</p>
+                            <p class="is-size-6"><b>Target:</b> DSHARP-like disk with an embedded planet</p>
+                            <p class="is-size-6"><b>Configuration(s):</b> C4+C7, C5+C8 and C6</p>
+                            <p class="is-size-6"><b>Band(s):</b> 7, 6</p>
+                            <p class="is-size-6"><b>Frequency support:</b> Continuum only</p>
+                            <p class="is-size-6"><b>Available data products:</b> Continuum visibilities and images (N=132)</p>
+                            <p class="is-size-6"><b>Made using:</b> <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a></p>
+                            <p class="title is-size-5"> </p>
+                            
+                              <div class="buttons is-left">
+                              <a href="https://doi.org/10.6084/m9.figshare.25464109" target="_blank" class="button is-info is-light is-outlined ">download data products</a>
+                              </div>
+                              <!-- <div class="buttons is-left">
+                                
+                                
+                              </div> -->
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="showcase">
+                <!-- <figure class="image  is-16by9 ">
                     <img src="/assets/images/obs-syn/SBD2022.jpg" />
                 </figure> -->
                 <div class="showcase-content">
@@ -137,14 +190,14 @@
                             <div x-data="{ open: false }" markdown="0">
     <a x-on:click="open = true" title="View large image">
         <figure class="image is-5by3">
-            <img src="https://jspeedie.com/assets/images/obs-syn/SBD2022.jpg" alt="Example image">
+            <img src="http://localhost:4000/assets/images/obs-syn/SBD2022.jpg" alt="Example image">
         </figure>
     </a>
     <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
         <div class="modal-background" x-on:click="open = false"></div>
         <div class="modal-content">
             
-                <img src="https://jspeedie.com/assets/images/obs-syn/SBD2022.jpg" alt="Example image">
+                <img src="http://localhost:4000/assets/images/obs-syn/SBD2022.jpg" alt="Example image">
             
         </div>
         <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
@@ -159,7 +212,7 @@
                             <p class="is-size-6"></p>
                             <p class="is-size-6"><b>Telescope:</b> ALMA</p>
                             <p class="is-size-6"><b>Target:</b> DSHARP-like disk with an embedded planet</p>
-                            <p class="is-size-6"><b>Configuration(s):</b> C-4 + C-7, C-5 + C-8 and C-6 + C-9</p>
+                            <p class="is-size-6"><b>Configuration(s):</b> C4+C7, C5+C8 and C6+C9</p>
                             <p class="is-size-6"><b>Band(s):</b> 7</p>
                             <p class="is-size-6"><b>Frequency support:</b> Continuum only</p>
                             <p class="is-size-6"><b>Available data products:</b> Continuum images (N=576), input RT dust intensity maps (N=24)</p>
@@ -185,7 +238,7 @@
 
         <div class="content">
             <p><h1 id="code">Code</h1>
-<p>(Coming soon) Models, tools, etc.</p>
+<p>Models, tools, useful functions, etc.</p>
 </p>
         </div>
 
@@ -194,9 +247,67 @@
                 <p class="title is-3 has-text-centered"></p>
             </div> -->
             
+            <div class="column is-3-desktop is-6-tablet">
+                <div class="card">
+                    <div class="card-image">
+                        <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-4by1">
+            <img src="http://localhost:4000/assets/images/code/expanding_kernel.png" alt="Example image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            
+            
+                  <img src="http://localhost:4000/assets/images/code/expanding_kernel.png" alt="Example image">
+                  
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                          <h5><a href="https://github.com/jjspeedie/expanding_kernel" target="_blank" ><p>expanding_kernel</p>
+</a></h5>
+                          <p><p>Enhance image contrast via high-pass filtering with a radially expanding kernel</p>
+</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            
         </div>
 
-        <!--  -->
+        <!-- 
+            <section class="showcase">
+                <figure class="image  is-4by1 ">
+                    <img src="/assets/images/code/expanding_kernel.png" />
+                </figure>
+                <div class="showcase-content">
+                    <div class="columns is-centered">
+                        <div class="column is-12-desktop is-12-tablet">
+                            <p class="title is-size-4">expanding_kernel</p>
+                            <p></p> -->
+                            <!-- <p class="subtitle is-size-5"></p> -->
+                            <!-- <p class="subtitle is-size-5"><b></b> , (). <i></i>, .</p>
+
+                             -->
+
+                            <!-- <a href="" class="button is-primary is-centered">
+                                
+                            </a> -->
+                        <!-- </div>
+                    </div>
+
+                </div>
+            </section>
+         -->
 
     
 

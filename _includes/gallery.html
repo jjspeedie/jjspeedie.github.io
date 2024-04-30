@@ -111,14 +111,14 @@
                 <p class="title is-3 has-text-centered">{{ gallery.title }}</p>
             </div> -->
             {% for item in galleries.code_items %}
-            <div class="column is-4-desktop is-6-tablet">
+            <div class="column is-3-desktop is-6-tablet">
                 <div class="card">
                     <div class="card-image">
                         {% include image-modal.html ratio=item.image_ratio link=item.image alt="Example image" large_link=item.image_large %}
                     </div>
                     <div class="card-content">
                         <div class="content">
-                          <h5>{{ item.title | markdownify }}</h5>
+                          <h5><a href="{{ item.github_link}}" target="_blank" >{{ item.title | markdownify }}</a></h5>
                           <p>{{ item.description | markdownify }}</p>
                         </div>
 
