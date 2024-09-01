@@ -56,10 +56,22 @@
 
                         {% if item.ads %}
                         <div class="buttons is-centered">
-                            <a href="{{ item.ads }}" target="_blank" class="button is-grey">ADS</a>
-                            <a href="{{ item.arxiv }}" target="_blank" class="button is-grey">arXiv</a>
+                            <a href="{{ item.ads }}" target="_blank" class="button is-info is-light is-outlined">ADS</a>
+                            <a href="{{ item.arxiv }}" target="_blank" class="button is-info is-light is-outlined">arXiv</a>
+                            {% if item.data_products %}
+                            <a href="{{ item.data_products }}" target="_blank" class="button is-info is-light is-outlined">data</a>
+                            {% endif %}
+                            {% if item.data_products_syn %}
+                            <a href="{{ item.data_products_syn }}" target="_blank" class="button is-info is-light is-outlined">sims</a>
+                            {% endif %}
+                            {% if item.press %}
+                            <a href="{{ item.press }}" target="_blank" class="button is-info is-light is-outlined">press</a>
+                            {% endif %}
                             {% if item.figshare %}
-                            <a href="{{ item.figshare }}" target="_blank" class="button is-grey">figshare</a>
+                            <a href="{{ item.figshare }}" target="_blank" class="button is-info is-light is-outlined">figshare</a>
+                            {% endif %}
+                            {% if item.movies %}
+                            <a href="{{ item.movies }}" target="_blank" class="button is-info is-light is-outlined">movies</a>
                             {% endif %}
                         </div>
                         {% endif %}
@@ -96,7 +108,7 @@
 
                         {% if item.ojs %}
                         <div class="buttons is-centered">
-                            <a href="{{ item.ojs }}" target="_blank" class="button is-grey">OJS/PKP</a>
+                            <a href="{{ item.ojs }}" target="_blank" class="button is-info is-light is-outlined ">OJS/PKP</a>
                         </div>
                         {% endif %}
 

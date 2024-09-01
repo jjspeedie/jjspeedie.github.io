@@ -1,8 +1,23 @@
 intro: |-
-  # First-author publications
+  # Lead-author publications
   Up-to-date ADS library can be found <a href="https://ui.adsabs.harvard.edu/public-libraries/OOULjEiIR02eZGFIpVmyLQ" target="_blank">here</a>.
 
 items:
+  - title: Gravitational instability in a planet-forming disk
+    image: /assets/images/abaur-13CO.jpg
+    image_ratio: is-4by1
+    author1: Speedie, J.,
+    coauthors: Dong, R., Hall, C., Longarini, C., Paneque-Carreno, T., Veronesi, B., Lodato, G., Wang, Y., Teague, R. and Hashimoto, J.
+    journal: Nature
+    volume: 632, 8028
+    year: 2024
+    ads: https://www.nature.com/articles/s41586-024-07877-0
+    arxiv: https://www.nature.com/articles/s41586-024-07877-0
+    data_products: https://doi.org/10.11570/24.0087
+    data_products_syn: https://doi.org/10.5281/zenodo.11668694
+    # press: https://
+    # movies: https://
+
   - title: Testing velocity kinks as a planet-detection method. Do velocity kinks in surface gas emission trace planetary spiral wakes in the midplane continuum?
     image: /assets/images/doar25.png
     image_ratio: is-4by1
@@ -13,31 +28,32 @@ items:
     year: 2022
     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
     arxiv: https://arxiv.org/abs/2211.05757
-    figshare: https://doi.org/10.6084/m9.figshare.21330426
+    movies: https://doi.org/10.6084/m9.figshare.21330426
 
   - title: Observing planet-driven dust spirals with ALMA
     image: /assets/images/spirals.png
     image_ratio: is-4by1
-    author1: Speedie, J.
+    author1: Speedie, J.,
     coauthors: Booth, R.A., and Dong, R.
     journal: ApJ
     volume: 930, 40 (22pp)
     year: 2022
     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...930...40S/abstract
     arxiv: https://arxiv.org/abs/2203.00692
-    figshare: https://doi.org/10.6084/m9.figshare.19148912
+    data_products_syn: https://doi.org/10.6084/m9.figshare.19148912
+    movies: https://youtube.com/playlist?list=PLPaQMOzdzFW6AFYUS-zKhi2pyyPpltFsx&si=pIaFiIpZhDRCAKEk
 
   - title: Turbulent viscosity and the bifurcation of planet formation histories
     image: /assets/images/v3-torqdisk.png
     image_ratio: is-4by1
-    author1: Speedie, J.
-    coauthors: Pudritz, R.E., Cridland A.J., Booth R., and Meru F.
+    author1: Speedie, J.,
+    coauthors: Pudritz, R.E., Cridland, A.J., Booth, R.A., and Meru, F.
     journal: MNRAS
     volume: 510(4), 6059-6084
     year: 2022
     ads: https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.6059S/abstract
     arxiv: https://arxiv.org/abs/2111.01798
-    figshare:
+    movies: https://youtube.com/playlist?list=PLPaQMOzdzFW5K4sWmZtxmoryDMxxT2eai&si=0prWYpv3ZbaICkC3
 
   - title: The structure and stability of extended, inclined circumplanetary disk or ring systems
     image: /assets/images/laplacestack-narrow.png
@@ -49,7 +65,6 @@ items:
     year: 2020
     ads: https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1870S/abstract
     arxiv: https://arxiv.org/abs/1912.00034
-    figshare:
 
 ug_intro: |-
   # Undergraduate publications

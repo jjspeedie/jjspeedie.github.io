@@ -1,8 +1,8 @@
 intro: |-
   # Observations
-  (Coming soon) Data products from observing projects.
+  Data products from observing projects.
 
-# items:
+items:
 #   - image: /assets/images/HD97048.png #  (sorted by publication, not by program).
 #     image_large: /assets/images/HD97048.png
 #     telescope: ALMA
@@ -24,27 +24,50 @@ intro: |-
 #     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
 #     download_data: https://doi.org/10.6084/m9.figshare.21330426
 #     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
-#   - image: /assets/images/channelpans.png
-#     image_large: /assets/images/channelpans.png
-#     telescope: ALMA
-#     target: AB Aurigae
-#     program_ID: 2021.1.00690.S
-#     PI: Dong, R.
-#     pub_title: Kinematic evidence of gravitational instability in the planet-forming disk around AB Aurigae
-#     configuration: C-3 + C-6
-#     band: 6
-#     molecules: <sup>12</sup>CO, <sup>13</sup>CO, C<sup>18</sup>O, SO, continuum
-#     product_types: Measurement sets, image cubes, moment maps
-#     tools: CASA, bettermoments, expanding_kernel
-#     description: Description of data products available to download
-#     author1: Speedie
-#     coauthors: et al.
-#     journal: journal
-#     volume: volume
-#     year: submitted.
-#     ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
-#     download_data: https://doi.org/10.6084/m9.figshare.21330426
-#     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
+
+  # - image: /assets/images/channelpans.png
+  #   image_large: /assets/images/channelpans.png
+  #   telescope: ALMA
+  #   target: AB Aurigae
+  #   program_ID: 2021.1.00690.S
+  #   PI: Dong, R.
+  #   pub_title: Gravitational instability in a planet-forming disk
+  #   configuration: C3 + C6
+  #   band: 6
+  #   molecules: <sup>12</sup>CO (2-1), SO 6(5)-5(4), continuum
+  #   product_types: Visibilities (measurement sets), image cubes, moment maps
+  #   tools: CASA, bettermoments, expanding_kernel
+  #   description: Description of data products available to download
+  #   author1: Speedie
+  #   coauthors: et al.
+  #   journal: ApJ Letters
+  #   volume: in prep
+  #   year: year
+  #   ads: https://ui.adsabs.harvard.edu
+  #   download_data: https://
+  #   reduction_guide: https://
+
+  - image: /assets/images/obs/SDH2024-abaur.png
+    image_large: /assets/images/obs/SDH2024-abaur.png
+    telescope: ALMA
+    target: AB Aurigae
+    program_ID: 2021.1.00690.S
+    PI: Dong, R.
+    pub_title: Gravitational instability in a planet-forming disk
+    configuration: C3 + C6
+    band: 6
+    molecules: <sup>13</sup>CO (2-1), C<sup>18</sup>O (2-1)
+    product_types: Visibilities (measurement sets), image cubes, moment maps, residual maps, VLT/SPHERE H-band image (Q<sub>phi</sub> x r<sup>2</sup>)
+    tools: <a href="https://casadocs.readthedocs.io/en/stable/" target="_blank">CASA</a>, <a href="https://github.com/richteague/bettermoments" target="_blank">bettermoments</a>, <a href="https://github.com/jjspeedie/expanding_kernel" target="_blank">expanding_kernel</a>
+    description: Description of data products available to download
+    author1: Speedie
+    coauthors: et al.
+    journal: Nature
+    volume: 632, 8028
+    year: 2024
+    ads: https://www.nature.com/articles/s41586-024-07877-0
+    download_data: https://doi.org/10.11570/24.0087
+    reduction_guide: https://jjspeedie.github.io/guide.2021.1.00690.S
 
 
 
@@ -53,37 +76,37 @@ syn_intro: |-
   Synthetic data products generated from simulations.
 
 syn_items:
-  # - image: /assets/images/hall_models.png
-  #   image_large: /assets/images/hall_models.png
-  #   telescope: ALMA
-  #   target: AB Aurigae analogue
-  #   pub_title: Kinematic evidence of gravitational instability in the planet-forming disk around AB Aurigae
-  #   configuration: C-3 + C-6
-  #   band: 6
-  #   molecules: <sup>13</sup>CO
-  #   product_types: Image cubes, moment maps, MCFOST line cubes, PHANTOM dump files, param files, scripts
-  #   tools: PHANTOM, MCFOST, syndisk, bettermoments, expanding_kernel
-  #   author1: Speedie
-  #   coauthors: et al.
-  #   journal: Journal
-  #   volume: volume
-  #   year: year
-  #   ads: https://ui.adsabs.harvard.edu/abs/2022ApJ...940L..43S/abstract
-  #   download_data: https://doi.org/10.6084/m9.figshare.21330426
+  - image: /assets/images/obs-syn/SDH2024-phantom.jpg
+    image_large: /assets/images/obs-syn/SDH2024-phantom.jpg
+    telescope: ALMA
+    target: AB Aurigae disk analogue
+    pub_title: Gravitational instability in a planet-forming disk
+    configuration: Like C3 + C6
+    band: 6
+    molecules: <sup>13</sup>CO (2-1)
+    product_types: Synthetic image cubes, moment maps, model line cubes, dump files
+    tools: <a href="https://phantomsph.github.io/" target="_blank">PHANTOM</a>, <a href="https://github.com/cpinte/mcfost" target="_blank">MCFOST</a>, <a href="https://github.com/richteague/syndisk" target="_blank">syndisk</a>, <a href="https://github.com/richteague/bettermoments" target="_blank">bettermoments</a>, <a href="https://github.com/jjspeedie/expanding_kernel" target="_blank">expanding_kernel</a>
+    author1: Speedie
+    coauthors: et al.
+    journal: Nature
+    volume: 632, 8028
+    year: 2024
+    ads: https://www.nature.com/articles/s41586-024-07877-0
+    download_data: https://doi.org/10.5281/zenodo.11668694
   - image: /assets/images/obs-syn/SRSBC2024.jpg
-    image_large: /assets/images/obs-syn/SBD2022.jpg
+    image_large: /assets/images/obs-syn/SRSBC2024.jpg
     telescope: ALMA
     target: DSHARP-like disk with an embedded planet
     pub_title: Searching for planet-driven dust spirals in ALMA visibilities
     configuration: C4+C7, C5+C8 and C6
     band: 7, 6
     molecules: Continuum only
-    product_types: Continuum visibilities and images (N=132)
+    product_types: Continuum visibilities (uvtables) and images (N=132)
     tools: <a href="https://fargo3d.bitbucket.io/" target="_blank">FARGO3D</a>, <a href="https://casadocs.readthedocs.io/en/stable/api/tt/casatasks.simulation.simanalyze.html" target="_blank">CASA simanalyze/simobserve</a> #(see fargo3d_to_alma)
     author1: Stevenson, Ribas, Speedie
     coauthors: et al.
     journal: MNRAS
-    volume: in press. (arXiv:2404.18925)
+    volume: 530, 4, 4802-4825
     year: 2024
     ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240418925S/abstract
     download_data: https://doi.org/10.6084/m9.figshare.25464109
