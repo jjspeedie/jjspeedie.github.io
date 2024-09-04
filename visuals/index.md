@@ -38,6 +38,7 @@ To come:
 - 12CO keplerian/anti-keplerian fade overlay
 - 12CO/SO radial & azimuthal PV slice movies
 - PPV animations
+- expanding kernel gif blinks
 -->
 
 <div class="columns is-multiline">
