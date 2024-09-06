@@ -65,7 +65,7 @@ items:
     journal: Nature
     volume: 632, 8028
     year: 2024
-    ads: https://www.nature.com/articles/s41586-024-07877-0
+    ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract
     download_data: https://doi.org/10.11570/24.0087
     reduction_guide: https://jjspeedie.github.io/guide.2021.1.00690.S
 
@@ -91,7 +91,7 @@ syn_items:
     journal: Nature
     volume: 632, 8028
     year: 2024
-    ads: https://www.nature.com/articles/s41586-024-07877-0
+    ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract
     download_data: https://doi.org/10.5281/zenodo.11668694
   - image: /assets/images/obs-syn/SRSBC2024.jpg
     image_large: /assets/images/obs-syn/SRSBC2024.jpg

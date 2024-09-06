@@ -11,11 +11,11 @@ items:
     journal: Nature
     volume: 632, 8028
     year: 2024
-    ads: https://www.nature.com/articles/s41586-024-07877-0
-    arxiv: https://www.nature.com/articles/s41586-024-07877-0
+    ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract
+    arxiv: https://arxiv.org/abs/2409.02196
     data_products: https://doi.org/10.11570/24.0087
     data_products_syn: https://doi.org/10.5281/zenodo.11668694
-    # press: https://
+    press: https://www.almaobservatory.org/en/press-releases/alma-detects-hallmark-wiggle-of-gravitational-instability-in-planet-forming-disk/
     # movies: https://
 
   - title: Testing velocity kinks as a planet-detection method. Do velocity kinks in surface gas emission trace planetary spiral wakes in the midplane continuum?

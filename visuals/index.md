@@ -26,7 +26,7 @@ Your browser does not support the video tag.
 
 ### ALMA observations of AB Aurigae
 
-Observations toward AB Aur with ALMA (program 2021.1.00690.S, PI <a href="https://www.astro.uvic.ca/~rbdong/astro/Welcome.html" target="_blank">R. Dong</a>) from <a href="https://www.nature.com/articles/s41586-024-07877-0" target="_blank">Speedie et al. 2024</a>.
+Observations toward AB Aur with ALMA (program 2021.1.00690.S, PI <a href="https://www.astro.uvic.ca/~rbdong/astro/Welcome.html" target="_blank">R. Dong</a>) from <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract" target="_blank">Speedie et al. 2024</a>.
 <!-- Full video playlist <a href="https://www.youtube.com/playlist?list=PLPaQMOzdzFW7jrTsEDQVl7UZbqxPZ_d38" target="_blank">here</a>. -->
 
 <!--
@@ -99,7 +99,7 @@ To come:
 
 ### Kinematics of gravitational instability in protoplanetary disks
 
-Numerical and analytic modeling from <a href="https://www.nature.com/articles/s41586-024-07877-0" target="_blank">Speedie et al. 2024</a>: 3D hydrodynamic and radiative transfer simulations with PHANTOM/MCFOST in collaboration with <a href="https://astrocass.com/" target="_blank">Cassandra Hall</a> and 2D analytic modeling in collaboration with <a href="https://www.ast.cam.ac.uk/people/cristiano.longarini" target="_blank">Cristiano Longarini</a>. Based on the original work of <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...904..148H/abstract" target="_blank">Hall et al. 2020</a> and <a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...920L..41L/abstract" target="_blank">Longarini et al. 2021</a>.
+Numerical and analytic modeling from <a href="https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract" target="_blank">Speedie et al. 2024</a>: 3D hydrodynamic and radiative transfer simulations with PHANTOM/MCFOST in collaboration with <a href="https://astrocass.com/" target="_blank">Cassandra Hall</a> and 2D analytic modeling in collaboration with <a href="https://www.ast.cam.ac.uk/people/cristiano.longarini" target="_blank">Cristiano Longarini</a>. Based on the original work of <a href="https://ui.adsabs.harvard.edu/abs/2020ApJ...904..148H/abstract" target="_blank">Hall et al. 2020</a> and <a href="https://ui.adsabs.harvard.edu/abs/2021ApJ...920L..41L/abstract" target="_blank">Longarini et al. 2021</a>.
 
 <!-- Full video playlist <a href="https://www.youtube.com/playlist?list=PLPaQMOzdzFW7jrTsEDQVl7UZbqxPZ_d38" target="_blank">here</a>. -->
 
