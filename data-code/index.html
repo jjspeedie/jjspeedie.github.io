@@ -346,7 +346,7 @@
 
         <div class="content">
             <p><h1 id="code">Code</h1>
-<p>Models, tools, useful functions, etc.</p>
+<p>Models, tools, useful functions, resources, etc.</p>
 </p>
         </div>
 
@@ -354,6 +354,41 @@
             <!-- <div class="column is-12">
                 <p class="title is-3 has-text-centered"></p>
             </div> -->
+            
+            <div class="column is-3-desktop is-6-tablet">
+                <div class="card">
+                    <div class="card-image">
+                        <div x-data="{ open: false }" markdown="0">
+    <a x-on:click="open = true" title="View large image">
+        <figure class="image is-4by1">
+            <img src="https://jspeedie.com/assets/images/code/alma_ambassador_workshop_2024.jpg" alt="Example image">
+        </figure>
+    </a>
+    <div class="modal" x-bind:class="open ? 'is-active' : ''" x-cloak>
+        <div class="modal-background" x-on:click="open = false"></div>
+        <div class="modal-content">
+            
+            
+                  <img src="https://jspeedie.com/assets/images/code/alma_ambassador_workshop_2024.jpg" alt="Example image">
+                  
+            
+        </div>
+        <button class="modal-close is-large" aria-label="close" x-on:click="open = false"></button>
+    </div>
+</div>
+
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                          <h5><a href="https://jjspeedie.github.io/alma-data-processing-workshop-2024/intro.html" target="_blank" ><p>ALMA Data Processing Workshop 2024</p>
+</a></h5>
+                          <p><p>NRAO/NAASC Community Event @University of Victoria</p>
+</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
             
             <div class="column is-3-desktop is-6-tablet">
                 <div class="card">
@@ -393,6 +428,29 @@
         </div>
 
         <!-- 
+            <section class="showcase">
+                <figure class="image  is-4by1 ">
+                    <img src="/assets/images/code/alma_ambassador_workshop_2024.jpg" />
+                </figure>
+                <div class="showcase-content">
+                    <div class="columns is-centered">
+                        <div class="column is-12-desktop is-12-tablet">
+                            <p class="title is-size-4">ALMA Data Processing Workshop 2024</p>
+                            <p></p> -->
+                            <!-- <p class="subtitle is-size-5"></p> -->
+                            <!-- <p class="subtitle is-size-5"><b></b> , (). <i></i>, .</p>
+
+                             -->
+
+                            <!-- <a href="" class="button is-primary is-centered">
+                                
+                            </a> -->
+                        <!-- </div>
+                    </div>
+
+                </div>
+            </section>
+        
             <section class="showcase">
                 <figure class="image  is-4by1 ">
                     <img src="/assets/images/code/expanding_kernel.png" />
