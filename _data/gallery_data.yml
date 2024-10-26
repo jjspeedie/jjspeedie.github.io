@@ -131,7 +131,7 @@ syn_items:
 
 code_intro: |-
   # Code
-  Models, tools, useful functions, etc.
+  Models, tools, useful functions, resources, etc.
 
 # fargo3d_to_casa
 # keplerian_mask
@@ -153,6 +153,11 @@ code_items:
 #   #   image: /assets/images/lafreniere.png
 #   #   image_ratio: is-4by1
 #   #   description: Cristiano Longarini
+  - title: ALMA Data Processing Workshop 2024
+    image: /assets/images/code/alma_ambassador_workshop_2024.jpg
+    image_ratio: is-4by1
+    description: NRAO/NAASC Community Event @University of Victoria
+    github_link: https://jjspeedie.github.io/alma-data-processing-workshop-2024/intro.html
   - title: expanding_kernel
     image: /assets/images/code/expanding_kernel.png
     image_ratio: is-4by1
