@@ -11,8 +11,8 @@ items:
     journal: ApJ Letters
     volume: in press
     year: 2025
-    ads: https://doi.org/10.3847/2041-8213/adb7d5
-    arxiv: https://
+    ads: https://arxiv.org/abs/2503.01957 #https://doi.org/10.3847/2041-8213/adb7d5
+    arxiv: https://arxiv.org/abs/2503.01957
     data_products: https://doi.org/10.11570/24.0098
     # press: https://www.almaobservatory.org/en/press-releases/alma-detects-hallmark-wiggle-of-gravitational-instability-in-planet-forming-disk/
     movies: https://doi.org/10.6084/m9.figshare.28205066
