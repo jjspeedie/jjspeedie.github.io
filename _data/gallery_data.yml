@@ -25,27 +25,28 @@ items:
 #     download_data: https://doi.org/10.6084/m9.figshare.21330426
 #     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
 
-  # - image: /assets/images/channelpans.png
-  #   image_large: /assets/images/channelpans.png
-  #   telescope: ALMA
-  #   target: AB Aurigae
-  #   program_ID: 2021.1.00690.S
-  #   PI: Dong, R.
-  #   pub_title: Gravitational instability in a planet-forming disk
-  #   configuration: C3 + C6
-  #   band: 6
-  #   molecules: <sup>12</sup>CO (2-1), SO 6(5)-5(4), continuum
-  #   product_types: Visibilities (measurement sets), image cubes, moment maps
-  #   tools: CASA, bettermoments, expanding_kernel
-  #   description: Description of data products available to download
-  #   author1: Speedie
-  #   coauthors: et al.
-  #   journal: ApJ Letters
-  #   volume: in prep
-  #   year: year
-  #   ads: https://ui.adsabs.harvard.edu
-  #   download_data: https://
-  #   reduction_guide: https://
+  - image: /assets/images/obs/SDT2025-abaur.png
+    image_large: /assets/images/obs/SDT2025-abaur.png
+    # image_ratio: is-4by3
+    telescope: ALMA
+    target: AB Aurigae
+    program_ID: 2021.1.00690.S
+    PI: Dong, R.
+    pub_title: Mapping the merging zone of late infall in the AB Aur system
+    configuration: C3 + C6
+    band: 6
+    molecules: <sup>12</sup>CO (J=2-1), SO (J<sub>N</sub>=5<sub>6</sub>−4<sub>5</sub>), continuum (233.0 GHz)
+    product_types: Visibilities (measurement sets), image cubes, moment maps, Keplerian & anti-Keplerian masks/cubes, PV slices, Herschel SPIRE/PACS maps, & more
+    tools: <a href="https://casadocs.readthedocs.io/en/stable/" target="_blank">CASA</a>, <a href="https://github.com/richteague/bettermoments" target="_blank">bettermoments</a>, <a href="https://github.com/jjspeedie/expanding_kernel" target="_blank">expanding_kernel</a>, <a href="https://pvextractor.readthedocs.io/en/latest/" target="_blank">pvextractor</a>
+    description: Description of data products available to download
+    author1: Speedie
+    coauthors: et al.
+    journal: ApJ Letters
+    volume: in press
+    year: 2025
+    ads: https://doi.org/10.3847/2041-8213/adb7d5
+    download_data: https://doi.org/10.11570/24.0098
+    reduction_guide: https://jjspeedie.github.io/guide.2021.1.00690.S
 
   - image: /assets/images/obs/SDH2024-abaur.png
     image_large: /assets/images/obs/SDH2024-abaur.png
@@ -56,7 +57,7 @@ items:
     pub_title: Gravitational instability in a planet-forming disk
     configuration: C3 + C6
     band: 6
-    molecules: <sup>13</sup>CO (2-1), C<sup>18</sup>O (2-1)
+    molecules: <sup>13</sup>CO (J=2-1), C<sup>18</sup>O (J=2-1)
     product_types: Visibilities (measurement sets), image cubes, moment maps, residual maps, VLT/SPHERE H-band image (Q<sub>phi</sub> x r<sup>2</sup>)
     tools: <a href="https://casadocs.readthedocs.io/en/stable/" target="_blank">CASA</a>, <a href="https://github.com/richteague/bettermoments" target="_blank">bettermoments</a>, <a href="https://github.com/jjspeedie/expanding_kernel" target="_blank">expanding_kernel</a>
     description: Description of data products available to download
@@ -135,13 +136,13 @@ code_intro: |-
 
 # fargo3d_to_casa
 # keplerian_mask
-# 	- spectral smoothing
+# - spectral smoothing
 # eddy
-# 	- wedge
+# - wedge
 # simobs
-# 	- primary beam correction
+# - primary beam correction
 # expanding_kernel
-# 	- the whole thing
+# - the whole thing
 # Give examples of where used
 
 code_items:

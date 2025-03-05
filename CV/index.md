@@ -24,10 +24,9 @@ show_sidebar: false
               <div class="box">
                 <p class="title is-4">Current</p>
                 <ul>
-                    <li><b>Ph.D. Candidate in Astronomy</b><p style="font-size:16px">University of Victoria, 2020 -</p></li>
-                    <li><b>NSERC Canada Graduate Scholarship, Doctoral</b><p style="font-size:16px">University of Victoria, 2022 -</p></li>
-                    <li><b>Vice Chair, Graduate Student Committee</b><p style="font-size:16px">Canadian Astronomical Society (CASCA), 2023 -</p></li>
-                    <li><b>ALMA Ambassador, Cycle 11</b><p style="font-size:16px">National Radio Astronomy Observatory (NRAO), 2024</p></li>
+                    <li><b>Ph.D. Candidate in Astronomy</b><p style="font-size:16px">University of Victoria, 2020-2025</p></li>
+                    <li><b>NSERC Canada Graduate Scholarship, Doctoral</b><p style="font-size:16px">University of Victoria, 2022-2025</p></li>
+                    <li><b>Vice Chair, Graduate Student Committee</b><p style="font-size:16px">Canadian Astronomical Society (CASCA), 2023-2025</p></li>
                 </ul>
               </div>
           </div>
@@ -35,6 +34,7 @@ show_sidebar: false
               <div class="box">
                   <p class="title is-4">Previous</p>
                   <ul>
+                      <li><b>ALMA Ambassador, Cycle 11</b><p style="font-size:16px">National Radio Astronomy Observatory (NRAO), 2024</p></li>
                       <li><b>Visiting Graduate Researcher</b><p style="font-size:16px">Imperial College London, 2022 (8w)</p></li>
                       <li><b>NSERC Canada Graduate Scholarship, Master's</b><p style="font-size:16px">University of Victoria, 2020-2021</p></li>
                       <li><b>B.Sc., Honours Integrated Science (Physics)</b><p style="font-size:16px">McMaster University, 2016-2020</p></li>

@@ -3,11 +3,25 @@ intro: |-
   Up-to-date ADS library can be found <a href="https://ui.adsabs.harvard.edu/public-libraries/OOULjEiIR02eZGFIpVmyLQ" target="_blank">here</a>.
 
 items:
+  - title: Mapping the merging zone of late infall in the AB Aur planet-forming system
+    image: /assets/images/abaur-12CO.jpg
+    image_ratio: is-4by1
+    author1: Speedie, J.,
+    coauthors: Dong, R., Teague, R., Segura-Cox, D., Pineda, J.E., Calcino, J., Longarini, C., Hall, C., Ya-Wen, T., Hashimoto, J., Paneque-Carreño, T., and Lodato, G.
+    journal: ApJ Letters
+    volume: in press
+    year: 2025
+    ads: https://doi.org/10.3847/2041-8213/adb7d5
+    arxiv: https://
+    data_products: https://doi.org/10.11570/24.0098
+    # press: https://www.almaobservatory.org/en/press-releases/alma-detects-hallmark-wiggle-of-gravitational-instability-in-planet-forming-disk/
+    movies: https://doi.org/10.6084/m9.figshare.28205066
+
   - title: Gravitational instability in a planet-forming disk
     image: /assets/images/abaur-13CO.jpg
     image_ratio: is-4by1
     author1: Speedie, J.,
-    coauthors: Dong, R., Hall, C., Longarini, C., Paneque-Carreno, T., Veronesi, B., Lodato, G., Wang, Y., Teague, R. and Hashimoto, J.
+    coauthors: Dong, R., Hall, C., Longarini, C., Paneque-Carreño, T., Veronesi, B., Lodato, G., Wang, Y., Teague, R. and Hashimoto, J.
     journal: Nature
     volume: 632, 8028
     year: 2024
