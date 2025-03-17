@@ -2,7 +2,7 @@
 layout: page
 title: # Jess Speedie
 subtitle: # Data & code
-hero_image: ../assets/images/banner.jpg
+hero_image: ../assets/images/banner-wakes.jpg
 gallery: gallery_data
 show_sidebar: false
 toc: false

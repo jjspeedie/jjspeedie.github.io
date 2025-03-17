@@ -2,7 +2,7 @@
 layout: page
 title: # Jess Speedie
 subtitle: # CV
-hero_image: ../assets/images/banner.jpg
+hero_image: ../assets/images/banner-wakes.jpg
 show_sidebar: false
 ---
 
