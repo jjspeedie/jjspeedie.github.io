@@ -25,8 +25,8 @@ items:
 #     download_data: https://doi.org/10.6084/m9.figshare.21330426
 #     reduction_guide: https://doi.org/10.6084/m9.figshare.21330426
 
-  - image: /assets/images/obs/SDT2025-abaur.png
-    image_large: /assets/images/obs/SDT2025-abaur.png
+  - image: /assets/images/obs/SDT2025.jpg
+    image_large: /assets/images/obs/SDT2025.jpg
     # image_ratio: is-4by3
     telescope: ALMA
     target: AB Aurigae
@@ -44,12 +44,12 @@ items:
     journal: ApJ Letters
     volume: in press
     year: 2025
-    ads: https://doi.org/10.3847/2041-8213/adb7d5
+    ads: https://ui.adsabs.harvard.edu/abs/2025arXiv250301957S/abstract
     download_data: https://doi.org/10.11570/24.0098
     reduction_guide: https://jjspeedie.github.io/guide.2021.1.00690.S
 
-  - image: /assets/images/obs/SDH2024-abaur.png
-    image_large: /assets/images/obs/SDH2024-abaur.png
+  - image: /assets/images/obs/SDH2024.jpg
+    image_large: /assets/images/obs/SDH2024.jpg
     telescope: ALMA
     target: AB Aurigae
     program_ID: 2021.1.00690.S

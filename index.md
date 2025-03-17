@@ -3,7 +3,7 @@ title: #Jess Speedie
 subtitle: #Ph.D. candidate in astronomy
 layout: page
 show_sidebar: false
-hero_image: assets/images/banner.jpg
+hero_image: assets/images/banner-wakes.jpg
 ---
 
 <div class="columns">

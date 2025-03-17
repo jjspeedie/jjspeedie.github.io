@@ -4,28 +4,28 @@ intro: |-
 
 items:
   - title: Mapping the merging zone of late infall in the AB Aur planet-forming system
-    image: /assets/images/abaur-12CO.jpg
+    image: /assets/images/SDT2025.jpg
     image_ratio: is-4by1
     author1: Speedie, J.,
     coauthors: Dong, R., Teague, R., Segura-Cox, D., Pineda, J.E., Calcino, J., Longarini, C., Hall, C., Ya-Wen, T., Hashimoto, J., Paneque-Carreño, T., and Lodato, G.
     journal: ApJ Letters
     volume: in press
     year: 2025
-    ads: https://arxiv.org/abs/2503.01957 #https://doi.org/10.3847/2041-8213/adb7d5
+    ads: https://ui.adsabs.harvard.edu/abs/2025arXiv250301957S/abstract
     arxiv: https://arxiv.org/abs/2503.01957
     data_products: https://doi.org/10.11570/24.0098
-    # press: https://www.almaobservatory.org/en/press-releases/alma-detects-hallmark-wiggle-of-gravitational-instability-in-planet-forming-disk/
+    # press: 
     movies: https://doi.org/10.6084/m9.figshare.28205066
 
   - title: Gravitational instability in a planet-forming disk
-    image: /assets/images/abaur-13CO.jpg
+    image: /assets/images/SDH2024.jpg
     image_ratio: is-4by1
     author1: Speedie, J.,
     coauthors: Dong, R., Hall, C., Longarini, C., Paneque-Carreño, T., Veronesi, B., Lodato, G., Wang, Y., Teague, R. and Hashimoto, J.
     journal: Nature
     volume: 632, 8028
     year: 2024
-    ads: https://ui.adsabs.harvard.edu/abs/2024arXiv240902196S/abstract
+    ads: https://ui.adsabs.harvard.edu/abs/2024Natur.633...58S/abstract
     arxiv: https://arxiv.org/abs/2409.02196
     data_products: https://doi.org/10.11570/24.0087
     data_products_syn: https://doi.org/10.5281/zenodo.11668694
