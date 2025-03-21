@@ -14,7 +14,7 @@ items:
     ads: https://ui.adsabs.harvard.edu/abs/2025arXiv250301957S/abstract
     arxiv: https://arxiv.org/abs/2503.01957
     data_products: https://doi.org/10.11570/24.0098
-    # press: 
+    aasnova: https://aasnova.org/2025/03/21/a-late-stage-infall-renovation-mapping-the-circumstellar-disk-of-ab-aurigae/
     movies: https://doi.org/10.6084/m9.figshare.28205066
 
   - title: Gravitational instability in a planet-forming disk

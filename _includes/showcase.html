@@ -56,22 +56,25 @@
 
                         {% if item.ads %}
                         <div class="buttons is-centered">
-                            <a href="{{ item.ads }}" target="_blank" class="button is-info is-light is-outlined">ADS</a>
-                            <a href="{{ item.arxiv }}" target="_blank" class="button is-info is-light is-outlined">arXiv</a>
+                            <a href="{{ item.ads }}" target="_blank" class="button is-link is-dark is-outlined"><b>ADS</b></a>
+                            <a href="{{ item.arxiv }}" target="_blank" class="button is-link is-dark is-outlined"><b>arXiv</b></a>
                             {% if item.data_products %}
-                            <a href="{{ item.data_products }}" target="_blank" class="button is-info is-light is-outlined">data</a>
+                            <a href="{{ item.data_products }}" target="_blank" class="button is-link is-dark is-outlined"><b>data</b></a>
                             {% endif %}
                             {% if item.data_products_syn %}
-                            <a href="{{ item.data_products_syn }}" target="_blank" class="button is-info is-light is-outlined">sims</a>
+                            <a href="{{ item.data_products_syn }}" target="_blank" class="button is-link is-dark is-outlined"><b>sims</b></a>
                             {% endif %}
                             {% if item.press %}
-                            <a href="{{ item.press }}" target="_blank" class="button is-info is-light is-outlined">press</a>
+                            <a href="{{ item.press }}" target="_blank" class="button is-link is-dark is-outlined"><b>press</b></a>
                             {% endif %}
                             {% if item.figshare %}
-                            <a href="{{ item.figshare }}" target="_blank" class="button is-info is-light is-outlined">figshare</a>
+                            <a href="{{ item.figshare }}" target="_blank" class="button is-link is-dark is-outlined"><b>figshare</b></a>
                             {% endif %}
                             {% if item.movies %}
-                            <a href="{{ item.movies }}" target="_blank" class="button is-info is-light is-outlined">movies</a>
+                            <a href="{{ item.movies }}" target="_blank" class="button is-link is-dark is-outlined"><b>movies</b></a>
+                            {% endif %}
+                            {% if item.aasnova %}
+                            <a href="{{ item.aasnova }}" target="_blank" class="button is-link is-dark is-outlined"><b>nova</b></a>
                             {% endif %}
                         </div>
                         {% endif %}
@@ -108,7 +111,7 @@
 
                         {% if item.ojs %}
                         <div class="buttons is-centered">
-                            <a href="{{ item.ojs }}" target="_blank" class="button is-info is-light is-outlined ">OJS/PKP</a>
+                            <a href="{{ item.ojs }}" target="_blank" class="button is-link is-dark is-outlined "><b>OJS/PKP</b></a>
                         </div>
                         {% endif %}
 
